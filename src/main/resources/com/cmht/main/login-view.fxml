@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7963eb; -fx-border-color: red; -fx-border-style: dotted;" stylesheets="@../../../style/styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cmht.main.LoginView">
+   <children>
+      <Label layoutX="272.0" layoutY="26.0" text="Log In" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="146.0" layoutY="115.0" text="Username : " textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="148.0" layoutY="186.0" text="Password : " textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginField" layoutX="273.0" layoutY="117.0" />
+      <TextField fx:id="passwordField" layoutX="273.0" layoutY="187.0" />
+      <Button layoutX="145.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#onLoginToApplication" prefHeight="44.0" prefWidth="105.0" text="Login" />
+      <Button layoutX="332.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#onCancelLogin" prefHeight="44.0" prefWidth="105.0" style="-fx-background-color: #DC3545;" text="Close" />
+   </children>
+</AnchorPane>
