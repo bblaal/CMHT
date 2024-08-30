@@ -108,7 +108,7 @@ The local database ensures that all data is securely stored and easily retrievab
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are welcome.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/bblaal/Restro_PoS/blob/master/LICENSE) file for details.
 
 ## Contact
 For more information or queries, feel free to contact us at [Linked In](https://www.linkedin.com/in/somsuvra-ganguly-67b95a12b/).
