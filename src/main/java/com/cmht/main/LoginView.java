@@ -53,7 +53,7 @@ public class LoginView {
                 Stage mainStage = new Stage();
                 int[] screenRatioArray = utilityOperation.getScreenRatio();
                 mainStage.setScene(new Scene(mainRoot, screenRatioArray[0], screenRatioArray[1]));
-                mainStage.setTitle("Point of Sale - Champaran Meat House & Tandoor");
+                mainStage.setTitle("Point of Sale - Restro PoS");
                 mainStage.show();
             } else {
                 utilityOperation.showMessage("Invalid Username or Password", "Login Failed !!!");

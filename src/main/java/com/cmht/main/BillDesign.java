@@ -9,7 +9,7 @@ public class BillDesign {
     public String formatHeader(){
         return(
                 "-------------------------------------------------------------\n" +
-                "                               Champaran Meat House & Tandoor\n" +
+                "                               Restaurant Name Goes Here PoS \n" +
                 "                                               Address Line 1\n" +
                 "                                               Address Line 2\n" +
                 "                                                   Contact No\n" +

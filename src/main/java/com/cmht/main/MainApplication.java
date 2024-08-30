@@ -15,7 +15,7 @@ public class MainApplication extends Application {
     public void start(Stage loginStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("login-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        loginStage.setTitle("Log In - Champaran Meat House & Tandoor");
+        loginStage.setTitle("Log In - Restro PoS");
         loginStage.setScene(scene);
         loginStage.show();
     }
